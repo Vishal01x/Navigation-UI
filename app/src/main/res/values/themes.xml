@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WondProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#0E6FB3</item>
+        <item name="colorPrimaryDark">#0E6FB3</item>
+    </style>
+
+    <style name="Theme.WondProject" parent="Base.Theme.WondProject" />
+
+    <style name="menuItemText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    // Styling for user logo Image
+
+    <style name="imageCustom" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">6dp</item>
+    </style>
+
+    <style name="shapeOverlay" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSizeTopRight">6dp</item>
+    </style>
+</resources>
